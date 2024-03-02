@@ -1,0 +1,100 @@
+*{
+    font-family: sans-serif;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #d4d4d4;
+    border-bottom: 2px black solid;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+nav h1{
+    display: flex;
+}
+nav ul{
+    display: flex;
+}        
+nav ul li{
+    margin: 1em;
+    list-style-type: none;
+}
+.top img{
+    width: 100%;
+    margin-top: 5%;
+}
+
+
+
+.preview ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.preview ul li{
+    list-style-type: none;
+}
+
+.element{
+    height: 400px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+
+.element.one{
+    background-image: url(../images/fz01.jpg);
+}    
+.element.two{
+    background-image: url(../images/ms01.jpg);
+}  
+.element.three{
+    background-image: url(../images/np01.jpg);
+}  
+.element.four{
+    background-image: url(../images/res01.jpg);
+}  
+.element.five{
+    background-image: url(../images/res04.jpg);
+}  
+.element.six{
+    background-image: url(../images/urb01.jpg);
+}  
+
+
+
+.overlay{
+    background-color: rgba(255, 255, 255, .50);
+    position: absolute;
+    top: 280px;
+    height: 50px;
+    overflow: hidden;
+    -webkit-transition: all 1s ease-in-out .2s;
+    -moz-transition: all 1s ease-in-out .2s;
+    -ms-transition: all 1s ease-in-out .2s;
+    -o-transition: all 1s ease-in-out .2s;
+    transition: all 1s ease-in-out .2s;
+}
+
+.overlay:hover{
+    height: 400px;
+    top: 0;
+}
+
+footer{
+    color: white;
+    background-color: #d4d4d4;
+    padding: 2px;
+    text-align: center;
+    display: block-inline;
+    height: 2em;
+    float: left;
+    width: 100%;
+}
